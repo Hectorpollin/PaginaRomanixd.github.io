@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .cv {
+    width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center; /* centra la foto y el título */
+  }
+  
+  .foto img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;  /* hace la foto circular */
+    object-fit: cover;  /* ajusta la imagen al círculo */
+    border: 3px solid darkgreen;
+    margin-bottom: 15px;
+  }
+  
+  h1 {
+    color: darkgreen;
+  }
+  
+  h2 {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: darkgreen;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  p, li {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left; /* texto alineado a la izquierda */
+  }
+  
+  /* Estilo tabla */
+  .tabla-habilidades {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .tabla-habilidades th {
+    background-color: darkgreen;
+    color: white;
+    padding: 8px;
+  }
+  
+  .tabla-habilidades td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .tabla-habilidades tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
